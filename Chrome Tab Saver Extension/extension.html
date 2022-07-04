@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+      }
+      body {
+        padding: 10px;
+      }
+      #save,
+      #delete,
+      #tab {
+        display: inline-block;
+        margin-top: 3px;
+        background-color: rgb(59, 173, 74);
+        color: white;
+        border: none;
+        padding: 5px;
+        font-weight: 600;
+        margin-right: 6px;
+      }
+      #delete {
+        background-color: rgb(223, 33, 49);
+      }
+      #tab {
+        background-color: rgb(235, 100, 10);
+      }
+      #input {
+        display: block;
+        width: 100%;
+        padding: 3px;
+        border: 2px solid rgb(66, 180, 66);
+        min-width: 550px;
+      }
+      li a {
+        color: rgb(66, 180, 66);
+        font-size: large;
+        font-family: calibri;
+        font-weight: 500;
+        animation: fadeIn linear 1s;
+      }
+      li a::selection {
+        background-color: yellow;
+      }
+
+      .material-icons-outlined.md {
+        font-size: large;
+        position: relative;
+        top: 3px;
+        animation: fadeIn linear 1s;
+        user-select: none;
+      }
+      .material-icons-outlined.md:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+        color: red;
+        transition-duration: 0.5s;
+      }
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="input" />
+    <button id="save">SAVE INPUT</button>
+    <button id="tab">SAVE TAB</button>
+    <button id="delete">DELETE-ALL</button>
+    <ul
+      id="list"
+      style="
+        list-style-type: none;
+        list-style-position: inside;
+        margin-top: 10px;
+      "
+    ></ul>
+    <script src="extension.js"></script>
+  </body>
+</html>
