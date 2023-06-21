@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "NFT",
+    "slug": "NFT",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/non-fungible-token.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/non-fungible-token.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/non-fungible-token.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.deepak84687.NFT"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7db9d0e2-39c0-4a2f-aae5-e0ee95dcebd3"
+      }
+    }
+  }
+}

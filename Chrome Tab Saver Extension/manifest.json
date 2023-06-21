@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "First extension",
+  "version": "1.0",
+
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "extension.html"
+  },
+  "permissions": [
+   "tabs"
+  ]
+}

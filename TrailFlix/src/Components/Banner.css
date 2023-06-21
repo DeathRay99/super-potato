@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+.movie_banner {
+  /* padding: 20px; */
+  color: white;
+  height: 448px;
+  object-fit: contain;
+  /* margin-top: 60px; */
+}
+.banner_info {
+  /* position: relative; */
+  padding-top: 85px;
+  width: 60%;
+  margin-left: 26px;
+  height: 330px;
+  /* border: 5px solid black; */
+}
+.button_info button {
+  margin-right: 15px;
+  width: 90px;
+  padding: 6px;
+  color: whitesmoke;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  background-color: rgba(21, 19, 19, 0.664);
+  cursor: pointer;
+}
+.button_info {
+  margin-top: 5px;
+}
+.banner_info h4 {
+  margin-top: 5px;
+  font-weight: 450;
+  height: 48px;
+}
+.button_info button:hover {
+  cursor: pointer;
+  transition-duration: 200ms;
+  transform: scale(1.05);
+  background-color: white;
+  color: black;
+}
+.fadeBottom {
+  position: relative;
+  height: 7.4rem;
+  /* border: 5px solid black; */
+  /* margin-top: 120px; */
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}

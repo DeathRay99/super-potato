@@ -1,0 +1,44 @@
+
+
+Name of the person : GH
+Mobile Number : 9599799310
+You are visiting :GOA
+You are travelling via roadways
+Your total bill is Rs.15184
+Service tax is Rs.999
+You have to pay 16183
+    wishing you a safe journey
+
+Name of the person : JI
+Mobile Number : 9599799310
+You are visiting :GOA
+You are travelling via roadways
+Your total bill is Rs.15184
+Service tax is Rs.999
+You have to pay 16183
+    wishing you a safe journey
+
+Name of the person : DEE
+Mobile Number : 7011582607
+You are visiting :HYDERABAD
+You are travelling via roadways
+Your total bill is Rs.12688
+Service tax is Rs.999
+You have to pay 13687
+    wishing you a safe journey
+
+Name of the person : d
+Mobile Number : 0
+You are visiting :
+Your total bill is Rs.8.0076e-307
+Service tax is Rs.999
+You have to pay 999
+    wishing you a safe journey
+
+Name of the person : 
+Mobile Number : 0
+You are visiting :
+Your total bill is Rs.8.0076e-307
+Service tax is Rs.999
+You have to pay 999
+    wishing you a safe journey
